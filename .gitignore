@@ -23,6 +23,19 @@ yarn-debug.log*
 yarn-error.log*
 
 #env
-.env
-
+# dependencies
 node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# build
+build/
+dist/
+
+# environment variables
+.env
+backend/.env
+frontend/.env
+
+# misc
+.DS_Store
